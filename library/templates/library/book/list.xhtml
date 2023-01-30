@@ -1,0 +1,34 @@
+{% extends 'library/base.xhtml' %}
+{% block title %}Book{% endblock %}
+{% block content %}
+    <h1> books in library: <h1>
+      
+      {% if tag %}
+      <h2>Books tagged with '{{ tag.name }}'</h2> 
+      <h5><a href='{% url 'library:book_list' %}'>> reset tags <</a></h5>
+      {% endif %}
+      
+      {% for book in books %}
+        <h3>
+          <a href='{{ book.get_absolute_url }}'>
+                  {{ book.title }}
+                </a>
+              </h3>
+              <p class='tags'>
+                Tags:
+              {% for tag in book.tags.all %}
+                <a href='{% url 'library:book_list_by_tag' tag.slug %}'>
+                  {{ tag.name }}
+                </a>
+                {% if not forloop.last %}, {% endif %}
+                {% endfor %}
+              </p>
+              
+              <h5>
+                {{ book.desc|truncatechars:200|linebreaks }}
+              </h5>
+              {% endfor %}
+    
+    {% include  'pagination.xhtml' with page=books %}
+    
+    {% endblock %}

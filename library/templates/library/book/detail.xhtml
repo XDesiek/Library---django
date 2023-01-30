@@ -1,0 +1,63 @@
+{% extends 'library/base.xhtml' %}
+{% block title %}{{ book.title }}{% endblock %}
+{% block content %}
+    <p>tags: {{ book.tags.all|join:", " }}</p>
+    <p class='date'>
+        Published on {{ book.publication_date }}
+    </p>   
+    <h1>
+        {{ book.title }}
+    </h1>
+    <h3>
+        author : {{ book.author }}
+    </h3>
+    <p>
+       rating {{ book.rating }} / 100  
+    </p>    
+    <h5>
+        {{ book.desc|linebreaks }}
+    </h5>
+    
+    
+    
+    <p>
+      <a href='{% url 'library:book_share' book.id %}'>
+        Share this book
+      </a>
+    </p>
+
+    
+    <h2>Similar books</h2>
+    {% for book in similar_books %}
+      <p>
+        <a href='{{ book.get_absolute_url }}'>{{ book.title }}</a>
+      </p>
+    {% empty %}
+      There are no similar books yet.
+    {% endfor %}
+  
+
+
+
+    
+    {% with comments.count as total_comments %}
+    <h2>
+      {{ total_comments }} comment{{ total_comments|pluralize }}
+    </h2>
+    {% endwith %}
+
+    {% for comment in comments %}
+    <div class='comment'>
+      <p class='info'>
+        Comment {{ forloop.counter }} by {{ comment.name }}
+        <br>
+        {{ comment.created }}
+      </p>
+      {{ comment.body|linebreaks }}
+    </div>
+  {% empty %}
+  <p>There are no comments.</p>
+  {% endfor %}
+  {% include 'library/book/includes/comment_form.xhtml' %}
+  
+{% endblock %}

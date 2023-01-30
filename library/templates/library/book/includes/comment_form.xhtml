@@ -1,0 +1,5 @@
+<h2>Add a new comment</h2>
+<form action='{% url 'library:book_comment' book.id %}' method='POST'>
+  {{ form.as_p }}
+  {% csrf_token %}
+  <p><input type='submit' value='Add comment'></p>
