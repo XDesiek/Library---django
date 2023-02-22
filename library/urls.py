@@ -11,7 +11,7 @@ urlpatterns = [
     path('<int:book_id>/share/',views.book_share, name='book_share'),
     path('<int:book_id>/comment/', views.book_comment, name='book_comment'),
     path('tag/<slug:tag_slug>/',views.book_list, name='book_list_by_tag'),
-    path("createuser",views.create_user,name ="createuser")
+    # path("createuser",views.create_user,name ="createuser")
     # path("login",views.login,name='login'),
 
 ]

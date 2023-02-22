@@ -1,14 +1,17 @@
 {% extends 'library/base.xhtml' %}
 {% block title %}Book{% endblock %}
 {% block content %}
+    <header>
     <h1> books in library: <h1>
-      
+    </header>
+      <section>
       {% if tag %}
       <h2>Books tagged with '{{ tag.name }}'</h2> 
       <h5><a href='{% url 'library:book_list' %}'>> reset tags <</a></h5>
       {% endif %}
       
       {% for book in books %}
+      <article>
         <h3>
           <a href='{{ book.get_absolute_url }}'>
                   {{ book.title }}
@@ -27,8 +30,17 @@
               <h5>
                 {{ book.desc|truncatechars:200|linebreaks }}
               </h5>
+            </article>
               {% endfor %}
-    
-    {% include  'pagination.xhtml' with page=books %}
-    
+
+      </section>
+      
+      {% include  'pagination.xhtml' with page=books %}
+      <form method='get'>
+        {{ paginatorform.as_p }}
+        <input type='submit' value='page'>
+      </form>
+
+
     {% endblock %}
+    

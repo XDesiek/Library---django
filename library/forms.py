@@ -21,3 +21,5 @@ class EmailPostForm(forms.Form):
     to = forms.EmailField()
     comments = forms.CharField(required=False, widget=forms.Textarea)
     
+class PaginatorChangePageForm(forms.Form):
+    page = forms.IntegerField()

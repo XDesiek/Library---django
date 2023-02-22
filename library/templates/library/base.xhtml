@@ -9,12 +9,24 @@
     <body>
         <div id='content'>
             {% block content%}
-            {% endblock%}
+            {% endblock %}
         </div>
         <div id='sidebar'>
              <h2>The library has {% book_count %} books</h2>
-              </ul>
+             <h3>Best books</h3>
+             {% show_best_books %}
+             <h3>Most commented books</h3>
+               {% get_most_commented_books as most_commented_books %}
+                <ul>
+                {% for book in most_commented_books %}
+                    <li>
+                    <a href='{{ book.get_absolute_url }}'><h4>{{ book.title }}</h4></a>
+                    </li>
+                {% endfor %}
+                </ul>
+
+            
           
         </div>
     </body>
-    </html>
+    </html> 

@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from .models import Book, Comment
 from django.core.paginator import Paginator, EmptyPage,PageNotAnInteger
 from django.views.generic import ListView
-from .forms import EmailPostForm, CommentForm,CreateUserForm
+from .forms import EmailPostForm, CommentForm,CreateUserForm,PaginatorChangePageForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from taggit.models import Tag
@@ -23,17 +23,15 @@ from django.db.models import Count
 
 
 
-@require_POST
-def create_user(request):
-    user = None
-    # Comentarz został opublikowany
-    form = CreateUserForm(data=request.POST)
-    if form.is_valid():
-        user.save()
+# @require_POST
+# def create_user(request):
+#     user = None
+#     # Comentarz został opublikowany
+#     form = CreateUserForm(data=request.POST)
+#     if form.is_valid():
+#         user.save()
 
-    return render(request, "library/createuser.xhtml",{'user': user,'form': form})
-
-
+#     return render(request, "library/createuser.xhtml",{'user': user,'form': form})
 
 
 
@@ -45,6 +43,9 @@ def create_user(request):
 
 
 
+
+
+        
 
 
 
@@ -61,7 +62,13 @@ def book_list(request, tag_slug=None):
         book_list = book_list.filter(tags__in=[tag])
     # Pagination with 5 posts per page
     paginator = Paginator(book_list, 5)
-    page_number = request.GET.get('page', 1)
+    paginatorform = PaginatorChangePageForm()
+    if paginatorform.is_valid():
+        page_number  = paginatorform.cleaned_data['page']
+    else:
+        page_number = request.GET.get('page', 1)
+    
+
     try:
         books = paginator.page(page_number)
     except PageNotAnInteger:
@@ -74,7 +81,8 @@ def book_list(request, tag_slug=None):
     return render(request,
                  'library/book/list.xhtml',
                  {'books': books,
-                  'tag': tag})
+                  'tag': tag,
+                  "paginatorform":paginatorform})
 
 
 def book_detail(request, year, month, day, book):
@@ -129,6 +137,10 @@ def book_share(request, book_id):
 
 
 
+
+
+
+
 # ...
 @require_POST
 def book_comment(request, book_id):
@@ -147,3 +159,5 @@ def book_comment(request, book_id):
                            {'book': book,
                             'form': form,
                             'comment': comment})
+
+
