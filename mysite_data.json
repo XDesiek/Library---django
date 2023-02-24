@@ -1,0 +1,1823 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-12-20T17:53:09.889Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "hary potah",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-01-01T10:27:30.191Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "hary potah",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-01-01T10:27:30.197Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "ksiega zla",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-01-01T10:27:30.202Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "superowa ksiega",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-01-01T10:27:30.207Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "ksiazka2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-01-01T10:27:30.212Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "ksiazka",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-01-01T10:45:07.054Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "titile bardzo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-01-01T10:47:43.529Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Lorem Ipsum",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-01-15T16:10:14.963Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by wiktor on titile bardzo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-01-22T07:33:06.380Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Lorem Ipsum",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-01-24T18:36:09.866Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Tony",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-01-24T18:59:48.076Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Lorem Ipsum",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-01-24T18:59:48.081Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "titile bardzo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-01-24T19:06:34.258Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "The Crystal of the Forest",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-01-24T19:09:36.948Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "The Hidden Chamber of the Ancient Tree",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-01-24T19:10:33.528Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "The Crystal of the Forest",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-01-24T19:10:35.413Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "The Crystal of the Forest",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-01-24T19:10:46.073Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "The Hidden Chamber of the Ancient Tree",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-01-24T19:11:29.280Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Adventure.Magic.Nature",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-01-24T19:11:29.285Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "TreasureHunt.Magic.Nature",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-01-24T19:11:29.291Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "cos bardzo ciekawego",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-01-24T19:11:29.296Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "zabojcze",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-01-30T20:49:44.263Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "The Lost Kingdom of the Elves",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-01-30T20:50:15.996Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Curse of the Full Moon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-01-30T20:51:53.913Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "The Quest for the Phoenix Feather",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-01-30T20:52:23.935Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "The Battle for the Crystal Heart",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-01-30T20:52:46.137Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "The Journey to the Dragon's Lair",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-01-30T20:53:59.476Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "The Cowboy and the Space Outlaw",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-01-30T20:58:03.826Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "The Lost Treasure of Pirates Cove",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-01-30T20:59:30.914Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "The Adventure of the Lost Treasure",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-01-30T21:01:31.745Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Enchanted Diamond Quest",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-01-30T21:02:06.875Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Mystery of the Abandoned Castle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-01-30T21:03:54.889Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Journey to the Heart of the Jungle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add book",
+    "content_type": 7,
+    "codename": "add_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change book",
+    "content_type": 7,
+    "codename": "change_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete book",
+    "content_type": 7,
+    "codename": "delete_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view book",
+    "content_type": 7,
+    "codename": "view_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 9,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 9,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 9,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 9,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 10,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 10,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 10,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 10,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 11,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 11,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 11,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 11,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add reporter",
+    "content_type": 12,
+    "codename": "add_reporter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change reporter",
+    "content_type": 12,
+    "codename": "change_reporter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete reporter",
+    "content_type": 12,
+    "codename": "delete_reporter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view reporter",
+    "content_type": 12,
+    "codename": "view_reporter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add article",
+    "content_type": 13,
+    "codename": "add_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change article",
+    "content_type": 13,
+    "codename": "change_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete article",
+    "content_type": 13,
+    "codename": "delete_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view article",
+    "content_type": 13,
+    "codename": "view_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 14,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 14,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 14,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 14,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$uLYngIctG6s1OhpRmVcMWA$Xun/yJWJZ+zKyB7AtPP0L1VeOrZQpexHf9dOqKCeh1M=",
+    "last_login": "2023-01-30T20:48:55.853Z",
+    "is_superuser": true,
+    "username": "Tony",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-12-19T20:42:03.583Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "library",
+    "model": "book"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "library",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "library",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "document",
+    "model": "reporter"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "document",
+    "model": "article"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2wl4ebnxvr6l8grvej8kdyiia8uqr3rl",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2HP8o6XMGa53dJQFkS3FSIe5OIqWA9s3Me4sE2zqlrdGSZhRXocXld8swPqkcAB9Q7lWOtazLnOWhyJM2OVSk1-10_w4maNNesw8dced7qwgwGMOByEHOXkfNECOj7R05UtqjY9WB2jE6YpOzdUp8vvsTOJ4:1pH5Zk:LOJUiMWfZNVxypcegYxc0pk-jUvrIgXuDXF-inQl3Ws",
+    "expire_date": "2023-01-29T16:09:40.855Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6om2wd2v0pm8let7s3eue2de7tepa7ns",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2HP8o6XMGa53dJQFkS3FSIe5OIqWA9s3Me4sE2zqlrdGSZhRXocXld8swPqkcAB9Q7lWOtazLnOWhyJM2OVSk1-10_w4maNNesw8dced7qwgwGMOByEHOXkfNECOj7R05UtqjY9WB2jE6YpOzdUp8vvsTOJ4:1pIXsD:ylBse9aMZKGeSBj-mrcxT-rRi1ThRNeEJSFlTIDgSOY",
+    "expire_date": "2023-02-02T16:34:45.786Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "eoxo3qq2yay2qn4d7enwn5loll5tc1cc",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2HP8o6XMGa53dJQFkS3FSIe5OIqWA9s3Me4sE2zqlrdGSZhRXocXld8swPqkcAB9Q7lWOtazLnOWhyJM2OVSk1-10_w4maNNesw8dced7qwgwGMOByEHOXkfNECOj7R05UtqjY9WB2jE6YpOzdUp8vvsTOJ4:1pBvY0:odg3O6xACRcQ50GNc1eSxkQMBr6vpd_wxGxbLh9AUKU",
+    "expire_date": "2023-01-15T10:26:32.618Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sxs1u770dvd8bqygmhugj397yv3efnm2",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2HP8o6XMGa53dJQFkS3FSIe5OIqWA9s3Me4sE2zqlrdGSZhRXocXld8swPqkcAB9Q7lWOtazLnOWhyJM2OVSk1-10_w4maNNesw8dced7qwgwGMOByEHOXkfNECOj7R05UtqjY9WB2jE6YpOzdUp8vvsTOJ4:1p7N1u:a_Hv24v2F60TUuKqaUfCZfJISuneMggkLUSbTFT2Uog",
+    "expire_date": "2023-01-02T20:46:34.241Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u5yttt5rkl7uhf1nlca0evijw3xlg5mr",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2HP8o6XMGa53dJQFkS3FSIe5OIqWA9s3Me4sE2zqlrdGSZhRXocXld8swPqkcAB9Q7lWOtazLnOWhyJM2OVSk1-10_w4maNNesw8dced7qwgwGMOByEHOXkfNECOj7R05UtqjY9WB2jE6YpOzdUp8vvsTOJ4:1pMb5D:ccY4WKCYtSaFtCj8qVvg5-A_4eed0dst0Br4V6dtm1Q",
+    "expire_date": "2023-02-13T20:48:55.858Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z5xcoliodre6uga092zygd7hmtk9qna2",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGll2HP8o6XMGa53dJQFkS3FSIe5OIqWA9s3Me4sE2zqlrdGSZhRXocXld8swPqkcAB9Q7lWOtazLnOWhyJM2OVSk1-10_w4maNNesw8dced7qwgwGMOByEHOXkfNECOj7R05UtqjY9WB2jE6YpOzdUp8vvsTOJ4:1pAuTP:DSRIVtnaqHrxgjxz_ixBy0gOxJ_LVJW_zwFwAdafEW4",
+    "expire_date": "2023-01-12T15:05:35.269Z"
+  }
+},
+{
+  "model": "library.user",
+  "pk": 1,
+  "fields": {
+    "first_name": "Anton",
+    "last_name": "Kamien",
+    "username": "Tony",
+    "email": "tony.j.kaminski@gmail.com",
+    "password": "Frantek10",
+    "bio": ""
+  }
+},
+{
+  "model": "library.book",
+  "pk": 1,
+  "fields": {
+    "author": 1,
+    "title": "The Crystal of the Forest",
+    "publication_date": "2022-07-12",
+    "slug": "the-crystal-of-the-forest",
+    "desc": "Once upon a time, there was a young boy named Tim. Tim was always curious and loved to explore the forest behind his house. One day, while wandering deep into the woods, he stumbled upon a mysterious cave. Without hesitation, he ventured inside and discovered a magical crystal. As he picked it up, he felt a surge of power run through his body. From that day on, Tim had the ability to control the elements and he used his newfound powers to protect the forest and its inhabitants. He lived happily ever after.",
+    "rating": 56
+  }
+},
+{
+  "model": "library.book",
+  "pk": 2,
+  "fields": {
+    "author": 1,
+    "title": "The Hidden Chamber of the Ancient Tree",
+    "publication_date": "2018-03-22",
+    "slug": "the-hidden-chamber-of-the-ancient-tree",
+    "desc": "Once upon a time, there was a young girl named Emily. She loved to spend her days exploring the vast meadows surrounding her village. One day, while wandering through the tall grass, she stumbled upon an ancient tree. As she approached the tree, she noticed a small door carved into its trunk. Without hesitation, she opened the door and discovered a hidden chamber filled with gold and jewels. From that day on, Emily lived a life of wealth and luxury, but she never forgot the magic of that tree and the door that led her to it. She lived happily ever after.",
+    "rating": 81
+  }
+},
+{
+  "model": "library.book",
+  "pk": 3,
+  "fields": {
+    "author": 1,
+    "title": "The Lost Kingdom of the Elves",
+    "publication_date": "2023-01-30",
+    "slug": "the-lost-kingdom-of-the-elves",
+    "desc": "In a world of magic and wonder, there lived a young adventurer named Lily. She was always searching for new adventures and one day, she heard the tales of a lost kingdom of the elves. Determined to find the kingdom and explore its secrets, Lily set out on a journey through the forests, over the mountains, and across the rivers. After many trials and tribulations, she finally found the lost kingdom of the elves and was amazed by its beauty and wonder.",
+    "rating": 90
+  }
+},
+{
+  "model": "library.book",
+  "pk": 4,
+  "fields": {
+    "author": 1,
+    "title": "The Curse of the Full Moon",
+    "publication_date": "2023-01-30",
+    "slug": "the-curse-of-the-full-moon",
+    "desc": "In a small village surrounded by a dense forest, there lived a young werewolf named Max. Max had always struggled with his condition and the curse of the full moon. But one day, he heard rumors of a powerful sorceress who could break the curse. Max set out on a journey to find the sorceress and break the curse once and for all. After facing many obstacles and battling fierce monsters, he finally reached the sorceress and was granted his wish. Max was finally free from the curse of the full moon and could live a normal life.",
+    "rating": 85
+  }
+},
+{
+  "model": "library.book",
+  "pk": 5,
+  "fields": {
+    "author": 1,
+    "title": "The Quest for the Phoenix Feather",
+    "publication_date": "2023-01-30",
+    "slug": "the-quest-for-the-phoenix-feather",
+    "desc": "In a world of magic and wonder, there lived a young wizard named Sophia. Sophia was always searching for new adventures and one day, she heard of a powerful artifact, the Phoenix Feather. The Phoenix Feather was said to grant immense power and immortality to whoever possessed it. Determined to find the Phoenix Feather and unlock its power, Sophia set out on a journey through dangerous lands and treacherous forests. After many trials and tribulations, she finally found the Phoenix Feather and was amazed by its power.",
+    "rating": 90
+  }
+},
+{
+  "model": "library.book",
+  "pk": 6,
+  "fields": {
+    "author": 1,
+    "title": "The Battle for the Crystal Heart",
+    "publication_date": "2023-01-30",
+    "slug": "the-battle-for-the-crystal-heart",
+    "desc": "In a world of magic and wonder, there lived a young warrior named Leo. Leo was the protector of his village and he was always on the lookout for new challenges. One day, he heard of an evil sorcerer who was searching for the Crystal Heart, a powerful artifact that could control the minds of others. Leo set out on a journey to find the Crystal Heart and prevent the sorcerer from using its power. After facing many obstacles and battling fierce monsters, he finally found the Crystal Heart and defeated the sorcerer.",
+    "rating": 80
+  }
+},
+{
+  "model": "library.book",
+  "pk": 7,
+  "fields": {
+    "author": 1,
+    "title": "The Journey to the Dragon's Lair",
+    "publication_date": "2023-01-30",
+    "slug": "the-journey-to-the-dragons-lair",
+    "desc": "In a small village nestled in the heart of the forest, there lived a brave knight named Grace. Grace was always searching for new adventures and one day, she heard of a fierce dragon that lived in a nearby mountain. Determined to defeat the dragon and protect her kingdom, Grace set out on a journey through the mountains and the forests. After facing many obstacles and battling fierce monsters, she finally reached the dragon's lair and faced the dragon in battle.",
+    "rating": 72
+  }
+},
+{
+  "model": "library.book",
+  "pk": 8,
+  "fields": {
+    "author": 1,
+    "title": "The Cowboy and the Space Outlaw",
+    "publication_date": "2023-01-30",
+    "slug": "the-cowboy-and-the-space-outlaw",
+    "desc": "In a distant future, the Wild West has been taken to the stars. Cowboys roam the galaxy, seeking adventure and fortune. One such cowboy, Jack, has been hired to track down a notorious space outlaw named Red. Jack sets off on a journey through the galaxy, facing dangerous creatures and rival gangs as he closes in on Red. But as he finally catches up with the outlaw, he realizes that Red has a plan that will shake the foundations of the galaxy itself.",
+    "rating": 56
+  }
+},
+{
+  "model": "library.book",
+  "pk": 9,
+  "fields": {
+    "author": 1,
+    "title": "The Lost Treasure of Pirates Cove",
+    "publication_date": "2023-01-30",
+    "slug": "the-lost-treasure-of-pirates-cove",
+    "desc": "Once upon a time, in a small seaside village, there was a legend about a lost treasure hidden in Pirates Cove. Many had tried to find the treasure but failed, as the only clue was a mysterious map that no one could decipher.\r\n\r\nOne day, a young adventurous boy named Jack, who lived in the village, discovered the map in an old book. He was determined to find the treasure and set out on a journey to Pirates Cove. On his way, he met a wise old sailor who helped him understand the map and together, they sailed to the cove.\r\n\r\nWhen they arrived, they found the entrance to a cave but it was guarded by a group of fierce pirates. Jack, with his wit and bravery, was able to defeat the pirates and entered the cave. After hours of searching, they finally found the treasure, which was guarded by a fierce dragon. Jack and the sailor defeated the dragon and claimed the treasure.\r\n\r\nThey returned to the village as heroes and Jack used the treasure to improve the lives of everyone in the village. From that day on, Jack lived a life of adventure and wealth and the legend of the lost treasure of Pirates Cove lived on.",
+    "rating": 39
+  }
+},
+{
+  "model": "library.book",
+  "pk": 10,
+  "fields": {
+    "author": 1,
+    "title": "The Adventure of the Lost Treasure",
+    "publication_date": "2023-01-30",
+    "slug": "the-adventure-of-the-lost-treasure",
+    "desc": "Once upon a time, in a small village nestled in the hills, there lived a young adventurer named Jack. He was always eager for a new challenge and longed for the thrill of discovering hidden treasures.\r\n\r\nOne day, Jack heard rumors of an ancient treasure that was buried deep within the hills. Determined to find it, he set out on a journey through dense forests and treacherous mountains.\r\n\r\nAfter many days of searching, Jack finally stumbled upon a hidden cave. As he ventured deeper into the cave, he saw glittering gold coins and precious gems lying scattered on the ground. He had finally found the lost treasure!\r\n\r\nOverwhelmed with excitement, Jack filled his backpack with as much treasure as he could carry and began his journey back to the village. But little did he know, the journey back would be even more dangerous than the journey to the treasure.\r\n\r\nDespite facing many obstacles and close encounters with wild beasts, Jack finally made it back to the village, where he was greeted as a hero. The villagers were amazed at the amount of riches Jack had brought back and he lived happily ever after.",
+    "rating": 43
+  }
+},
+{
+  "model": "library.book",
+  "pk": 11,
+  "fields": {
+    "author": 1,
+    "title": "Enchanted Diamond Quest",
+    "publication_date": "2023-01-30",
+    "slug": "enchanted-diamond-quest",
+    "desc": "A young adventurer, Lara, sets out on a journey to find the Enchanted Diamond, said to grant wishes. Lara travels through treacherous mountains and dense forests, facing many challenges along the way. After much perseverance, she finally reaches the Diamond's hiding place and finds it surrounded by dangerous creatures. However, with quick thinking and bravery, Lara is able to retrieve the Diamond and return safely to her village. Upon her return, Lara is hailed as a hero and her wish is granted, bringing happiness and prosperity to her people.",
+    "rating": 89
+  }
+},
+{
+  "model": "library.book",
+  "pk": 12,
+  "fields": {
+    "author": 1,
+    "title": "Mystery of the Abandoned Castle",
+    "publication_date": "2023-01-30",
+    "slug": "mystery-of-the-abandoned-castle",
+    "desc": "A curious traveler, Alex, sets out to solve the mystery of an abandoned castle located on a remote cliff. As they explore the castle's dark and eerie halls, they discover a series of mysterious clues and hidden passages. With each new discovery, Alex edges closer to uncovering the castle's shocking secret and a treasure trove hidden deep within its walls. Finally, after much perseverance and bravery, Alex uncovers the truth and returns home with the treasure, becoming the stuff of legend.",
+    "rating": 67
+  }
+},
+{
+  "model": "library.book",
+  "pk": 13,
+  "fields": {
+    "author": 1,
+    "title": "Journey to the Heart of the Jungle",
+    "publication_date": "2023-01-30",
+    "slug": "journey-to-the-heart-of-the-jungle",
+    "desc": "A scientist, Dr. Smith, embarks on a journey to the heart of the jungle to study a rare plant. They brave the dangers of the jungle, facing challenges at every turn. However, their journey takes an unexpected turn when they stumble upon a lost civilization and a hoard of ancient treasure. The civilization is filled with both beauty and danger, and Dr. Smith must navigate through the challenges to uncover the secrets of the lost city and bring the treasure back to civilization. After a perilous journey, they return home with a wealth of knowledge and riches beyond their wildest dreams.",
+    "rating": 99
+  }
+},
+{
+  "model": "library.comment",
+  "pk": 2,
+  "fields": {
+    "book": 11,
+    "name": "Antek",
+    "email": "tony.j.kaminski@gmail.com",
+    "body": "bardzo super polecam 10/10",
+    "created": "2023-01-30T21:19:43.665Z",
+    "updated": "2023-01-30T21:19:43.665Z",
+    "active": true
+  }
+},
+{
+  "model": "library.comment",
+  "pk": 3,
+  "fields": {
+    "book": 11,
+    "name": "Antek",
+    "email": "tony.j.kaminski@gmail.com",
+    "body": "a tez wazny comment",
+    "created": "2023-01-30T21:26:12.660Z",
+    "updated": "2023-01-30T21:26:12.660Z",
+    "active": true
+  }
+},
+{
+  "model": "library.comment",
+  "pk": 4,
+  "fields": {
+    "book": 11,
+    "name": "jas",
+    "email": "tony.j.kaminski@gmail.com",
+    "body": "do dupy tbh",
+    "created": "2023-01-30T21:34:39.852Z",
+    "updated": "2023-01-30T21:34:39.852Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Adventure",
+    "slug": "adventure"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Magic",
+    "slug": "magic"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Nature",
+    "slug": "nature"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "TreasureHunt",
+    "slug": "treasurehunt"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Fantasy",
+    "slug": "fantasy"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "Knights",
+    "slug": "knights"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "Western",
+    "slug": "western"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 12,
+  "fields": {
+    "name": "Sci-Fi",
+    "slug": "sci-fi"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 13,
+  "fields": {
+    "name": "Treasure",
+    "slug": "treasure"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 14,
+  "fields": {
+    "name": "Pirates",
+    "slug": "pirates"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 15,
+  "fields": {
+    "name": "adventure",
+    "slug": "adventure_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 16,
+  "fields": {
+    "name": "treasure",
+    "slug": "treasure_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 17,
+  "fields": {
+    "name": "danger",
+    "slug": "danger"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 18,
+  "fields": {
+    "name": "bravery",
+    "slug": "bravery"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 19,
+  "fields": {
+    "name": "wish-granting",
+    "slug": "wish-granting"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 20,
+  "fields": {
+    "name": "mystery",
+    "slug": "mystery"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 21,
+  "fields": {
+    "name": "journey",
+    "slug": "journey"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 22,
+  "fields": {
+    "name": "discovery",
+    "slug": "discovery"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 18,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 19,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 20,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 21,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 22,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 23,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 24,
+  "fields": {
+    "tag": 10,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 25,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 26,
+  "fields": {
+    "tag": 11,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 27,
+  "fields": {
+    "tag": 12,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 28,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 29,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 30,
+  "fields": {
+    "tag": 13,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 31,
+  "fields": {
+    "tag": 14,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 32,
+  "fields": {
+    "tag": 16,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 33,
+  "fields": {
+    "tag": 17,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 34,
+  "fields": {
+    "tag": 15,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 35,
+  "fields": {
+    "tag": 18,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 36,
+  "fields": {
+    "tag": 19,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 37,
+  "fields": {
+    "tag": 15,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 38,
+  "fields": {
+    "tag": 16,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 39,
+  "fields": {
+    "tag": 18,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 40,
+  "fields": {
+    "tag": 20,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 41,
+  "fields": {
+    "tag": 16,
+    "content_type": 7,
+    "object_id": 13
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 42,
+  "fields": {
+    "tag": 21,
+    "content_type": 7,
+    "object_id": 13
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 43,
+  "fields": {
+    "tag": 22,
+    "content_type": 7,
+    "object_id": 13
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+}
+]
