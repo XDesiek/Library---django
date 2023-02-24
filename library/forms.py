@@ -23,3 +23,7 @@ class EmailPostForm(forms.Form):
     
 class PaginatorChangePageForm(forms.Form):
     page = forms.IntegerField()
+
+
+class RateForm(forms.Form):
+    rate = forms.IntegerField()
