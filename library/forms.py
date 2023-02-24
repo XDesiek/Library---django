@@ -27,3 +27,8 @@ class PaginatorChangePageForm(forms.Form):
 
 class RateForm(forms.Form):
     rate = forms.IntegerField()
+
+    
+    
+class SearchForm(forms.Form):
+    query = forms.CharField()

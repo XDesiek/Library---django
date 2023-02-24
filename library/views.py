@@ -1,8 +1,9 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Book, Comment
 from django.core.paginator import Paginator, EmptyPage,PageNotAnInteger
+from django.contrib.postgres.search import SearchVector
 from django.views.generic import ListView
-from .forms import EmailPostForm, CommentForm,CreateUserForm,PaginatorChangePageForm
+from .forms import EmailPostForm, CommentForm,CreateUserForm,PaginatorChangePageForm,SearchForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from taggit.models import Tag
@@ -160,4 +161,18 @@ def book_comment(request, book_id):
                             'form': form,
                             'comment': comment})
 
+def book_search(request):
+    form = SearchForm()
+    query = None
+    results = []
+    if 'query' in request.GET:
+        form = SearchForm(request.GET)
+        if form.is_valid():
+            query = form.cleaned_data['query']
+            results = Book.objects.annotate(search=SearchVector('title', 'desc')).filter(search=query)
+    return render(request,
+                  'library/book/search.xhtml',
+                  {'form': form,
+                   'query': query,
+                   'results': results})
 
