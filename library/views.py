@@ -58,32 +58,41 @@ def book_list(request, tag_slug=None):
     book_list = Book.objects.all()
     tag = None
     
+    searchform = SearchForm()
+    query = None
+    results = [] 
+    if 'query' in request.GET:
+        searchform = SearchForm(request.GET)
+        if searchform.is_valid():
+            query = searchform.cleaned_data['query'] 
+            results = Book.objects.annotate(search=SearchVector('title', 'desc')).filter(search=query)    
+
+
     if tag_slug:
         tag = get_object_or_404(Tag, slug=tag_slug)
         book_list = book_list.filter(tags__in=[tag])
-    # Pagination with 5 posts per page
+        
+
+
     paginator = Paginator(book_list, 5)
     paginatorform = PaginatorChangePageForm()
-    if paginatorform.is_valid():
-        page_number  = paginatorform.cleaned_data['page']
-    else:
-        page_number = request.GET.get('page', 1)
-    
+    if paginatorform.is_valid():page_number  = paginatorform.cleaned_data['page']
+    else:page_number = request.GET.get('page', 1)
 
-    try:
-        books = paginator.page(page_number)
-    except PageNotAnInteger:
-        # If page_number is not an integer deliver the first page
-        books = paginator.page(1)
-    except EmptyPage:
-        # If page_number is out of range deliver last page of results
-        books = paginator.page(paginator.num_pages)
+
+    # testy paginatora
+    try:books = paginator.page(page_number)
+    except PageNotAnInteger:books = paginator.page(1)
+    except EmptyPage:books = paginator.page(paginator.num_pages)
 
     return render(request,
                  'library/book/list.xhtml',
                  {'books': books,
                   'tag': tag,
-                  "paginatorform":paginatorform})
+                  "paginatorform":paginatorform,
+                  'searchform': searchform,
+                   'query': query,
+                   'results': results})
 
 
 def book_detail(request, year, month, day, book):
@@ -114,7 +123,6 @@ def book_detail(request, year, month, day, book):
 def book_share(request, book_id):
     # Retrieve post by id
     book = get_object_or_404(Book, id=book_id)
-    #dopisać 
     sent = False
     if request.method == 'POST':
         # Form was submitted
@@ -160,19 +168,4 @@ def book_comment(request, book_id):
                            {'book': book,
                             'form': form,
                             'comment': comment})
-
-def book_search(request):
-    form = SearchForm()
-    query = None
-    results = []
-    if 'query' in request.GET:
-        form = SearchForm(request.GET)
-        if form.is_valid():
-            query = form.cleaned_data['query']
-            results = Book.objects.annotate(search=SearchVector('title', 'desc')).filter(search=query)
-    return render(request,
-                  'library/book/search.xhtml',
-                  {'form': form,
-                   'query': query,
-                   'results': results})
 

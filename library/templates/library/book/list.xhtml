@@ -1,25 +1,36 @@
 {% extends 'library/base.xhtml' %}
 {% block title %}Book{% endblock %}
 {% block content %}
-    <header>
+
+  <!-- ten if jest tylko do wyszukiwanie pozniej -->
+  {% if not query %}
+  <header>
     <h1> books in library: <h1>
     </header>
       <section>
+        <!-- when tagged -->
       {% if tag %}
       <h2>Books tagged with '{{ tag.name }}'</h2> 
       <h5><a href='{% url 'library:book_list' %}'>> reset tags <</a></h5>
       {% endif %}
+
       
+      
+      
+      
+      
+      
+      <!-- wyswietlenie ksiazek normalnie -->
       {% for book in books %}
       <article>
         <h3>
           <a href='{{ book.get_absolute_url }}'>
-                  {{ book.title }}
+            {{ book.title }}
                 </a>
               </h3>
               <p class='tags'>
                 Tags:
-              {% for tag in book.tags.all %}
+                {% for tag in book.tags.all %}
                 <a href='{% url 'library:book_list_by_tag' tag.slug %}'>
                   {{ tag.name }}
                 </a>
@@ -33,14 +44,29 @@
             </article>
               {% endfor %}
 
-      </section>
+            </section>
       
-      {% include  'pagination.xhtml' with page=books %}
+            {% include  'pagination.xhtml' with page=books %}
+            
+      <!-- form do zmieniania stron szybko -->
       <form method='get'>
         {{ paginatorform.as_p }}
         <input type='submit' value='page'>
       </form>
+      
+
+      <form method='get'>
+        {{ searchform.as_p }}
+        <input type='submit' value='Search'>
+      </form>
+  
+
+  <!-- wyszukiwanie -->
+  {% else %}
+    {% include "library/book/includes/search.xhtml" %}
+  {% endif %}
 
 
-    {% endblock %}
-    
+
+  {% endblock %}
+      
