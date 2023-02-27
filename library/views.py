@@ -55,9 +55,11 @@ from django.db.models import Count
 
 
 def book_list(request, tag_slug=None):
+    # sam booklist
     book_list = Book.objects.all()
-    tag = None
     
+
+    # search
     searchform = SearchForm()
     query = None
     results = [] 
@@ -67,13 +69,14 @@ def book_list(request, tag_slug=None):
             query = searchform.cleaned_data['query'] 
             results = Book.objects.annotate(search=SearchVector('title', 'desc')).filter(search=query)    
 
-
+    # tagi
+    tag = None
     if tag_slug:
         tag = get_object_or_404(Tag, slug=tag_slug)
         book_list = book_list.filter(tags__in=[tag])
         
 
-
+    # paginator
     paginator = Paginator(book_list, 5)
     paginatorform = PaginatorChangePageForm()
     if paginatorform.is_valid():page_number  = paginatorform.cleaned_data['page']
