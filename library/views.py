@@ -3,11 +3,12 @@ from .models import Book, Comment
 from django.core.paginator import Paginator, EmptyPage,PageNotAnInteger
 from django.contrib.postgres.search import SearchVector
 from django.views.generic import ListView
-from .forms import EmailPostForm, CommentForm,CreateUserForm,PaginatorChangePageForm,SearchForm
+from .forms import EmailPostForm, CommentForm,PaginatorChangePageForm,SearchForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from taggit.models import Tag
 from django.db.models import Count
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 # class BookListView(ListView):
@@ -53,11 +54,10 @@ from django.db.models import Count
 
 
 
-
+@login_required
 def book_list(request, tag_slug=None):
     # sam booklist
     book_list = Book.objects.all()
-    
 
     # search
     searchform = SearchForm()

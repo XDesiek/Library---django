@@ -1,22 +1,18 @@
 from django.contrib import admin
-from .models import Book,Comment,User
+from .models import Book,Comment
 
 
 # Register your models here.
 
-@admin.register(User)
-class UserAdmin(admin.ModelAdmin):
-    list_display = ['username', 'email']
-    list_filter = ['username', 'first_name',"last_name"]
-    search_fields = ['username','first_name', 'last_name']
+
 
 
 
 @admin.register(Book)
 class BookAdmin(admin.ModelAdmin):
-    list_display =  ['title', 'author', 'rating','publication_date']
-    list_filter = ['title', 'author']
-    search_fields = ['title', 'author']
+    list_display =  ['title',  'rating','publication_date']
+    list_filter = ['title', ]
+    search_fields = ['title', ]
     date_hierarchy =  'publication_date'
     prepopulated_fields = {'slug': ('title',)}
 

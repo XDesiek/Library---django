@@ -31,13 +31,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'library.apps.LibraryConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'library.apps.LibraryConfig',
     'taggit',
     'django.contrib.sites',
     'django.contrib.sitemaps',
@@ -141,3 +141,6 @@ EMAIL_USE_TLS = True
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
+LOGIN_REDIRECT_URL = 'library:book_list'
+LOGIN_URL = 'library:login'
+LOGOUT_URL = 'library:logout'

@@ -5,23 +5,12 @@ from taggit.managers import TaggableManager
 
 # Create your models here.
 
-class User(models.Model):
-    first_name = models.CharField(max_length=32)
-    last_name = models.CharField(max_length=64)
-    username=models.CharField(max_length=32,unique=True)
-    email = models.EmailField(unique=True)
-    password=models.CharField(max_length=32)
-    bio=models.CharField(max_length=512,blank=True)
-    class Meta:
-        indexes = [models.Index(fields=['username'])]
-    def __str__(self):
-        return self.username
+
 
 
 
 class Book(models.Model):
 
-    author = models.ForeignKey(User,on_delete=models.CASCADE,related_name='books')
     title=  models.TextField(max_length=63)
     publication_date= models.DateField(default=timezone.now)
     # author = models.TextField(max_length=63)

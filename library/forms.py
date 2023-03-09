@@ -1,17 +1,11 @@
 from django import forms
-from .models import Comment,User
+from .models import Comment
 
 
 class CommentForm(forms.ModelForm):
     class Meta:
         model = Comment
         fields = ['name', 'email', 'body']
-
-class CreateUserForm(forms.ModelForm):
-    class Meta:
-        model = User
-        fields = ['email', 'password',"username","first_name","last_name",]
-
 
 
 
@@ -32,3 +26,5 @@ class RateForm(forms.Form):
     
 class SearchForm(forms.Form):
     query = forms.CharField()
+
+

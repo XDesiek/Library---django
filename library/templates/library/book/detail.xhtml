@@ -1,4 +1,4 @@
-{% extends 'library/base.xhtml' %}
+{% extends 'base.xhtml' %}
 {% block title %}{{ book.title }}{% endblock %}
 {% block content %}
     <p>tags: {{ book.tags.all|join:", " }}</p>
